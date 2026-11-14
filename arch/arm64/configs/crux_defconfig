@@ -834,9 +834,7 @@ CONFIG_DYNAMIC_FSYNC=y
 CONFIG_LRU_GEN=y
 CONFIG_LRU_GEN_ENABLED=y
 # CONFIG_LRU_GEN_STATS is not set
-# BBG
-CONFIG_LSM="lockdown,yama,loadpin,safesetid,integrity,selinux,smack,tomoyo,apparmor,bpf,baseband_guard"
-CONFIG_BBG=y
+
 # MIDI
 CONFIG_SND_RAWMIDI=y
 CONFIG_SND_SEQ_MIDI=y
